@@ -17,7 +17,7 @@ class Track(context: Context, bundle: Bundle, ratingType: Int) : TrackMetadata()
     var type = MediaType.DEFAULT
     var contentType: String?
     var userAgent: String?
-    var originalItem: Bundle?
+    var originalItem: Bundle
     var headers: MutableMap<String, String>? = null
     val queueId: Long
 
